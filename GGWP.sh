@@ -3,7 +3,7 @@ mkdir /volumes/untitled/tmp
 cd /volumes/untitled/tmp
 sleep 5
 ECHO "Downloading MacOS Ventura Install Assistant.pkg"
-curl -OL --progress-bar https://swcdn.apple.com/content/downloads/26/15/032-48342-A_OG2YEE7OSX/8sd3qpy79cimb7cjiy47cytps0gm7m0z5l/InstallAssistant.pkg
+curl -OL --progress-bar https://swcdn.apple.com/content/downloads/01/07/032-69593-A_15V577BH7O/fau3wbhcg9pmo81cgkb2qjp0gfbp1jxu26/InstallAssistant.pkg
 sleep 5
 ECHO "Installing Ventura Install Assistant @ /volumes/Untitled/Applications/"
 installer -verboseR -pkg /volumes/untitled/tmp/InstallAssistant.pkg -target "/volumes/untitled/"
